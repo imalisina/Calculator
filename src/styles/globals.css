@@ -1,0 +1,48 @@
+/* App.css */
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-color: #282c34;
+  color: white;
+  margin: 0;
+}
+
+/* Calculator.css */
+.calculator {
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.display {
+  background-color: #222;
+  color: #fff;
+  text-align: right;
+  padding: 20px;
+  font-size: 2em;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+button {
+  padding: 20px;
+  font-size: 1.5em;
+  border: 1px solid #ddd;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+button:active {
+  background-color: #ddd;
+}
